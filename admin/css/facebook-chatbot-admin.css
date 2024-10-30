@@ -1,0 +1,75 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .container{
+    padding: 35px;
+    margin-top: 37px;
+ }
+ .navbar-header{
+ 	display: -webkit-box;
+ }
+
+ li{
+ 	display: inline;
+ 	margin: 0 10px;
+ 	font-size: 14px;
+ }
+
+ ul{
+ 	overflow: hidden;
+ }
+ .wrap{
+    padding: 22px;
+    background: #fff;
+    margin: 0 !important;
+ }
+ .logo-header{
+ 	width: 80%;
+    
+ }
+ .row{
+ 	background: #fff;
+ 	padding: 2%;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 22.5%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
